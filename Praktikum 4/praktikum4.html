@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Praktikum 4 | HTML Form & Meta Element</title>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="refresh" content="3" />
+        <meta name="keywords" content="form & meta element html, pemrograman berbasis web" />
+        <meta name="description" content="Ini merupakan tugas praktikum 4 pemrograman berbasis web" />
+		
+    </head>
+    <body style="background-color: #945E52 ">
+        <form action="" style="width: 515px; height: 600px; background-color: white;">
+            <fieldset style="width: fit-content; margin: auto;">
+                <legend style="text-align: center; font-size: 30px; padding: 5px;"><b> BIODATA DIRI</b></legend>
+                    <label>Nama				:</label>
+                        <input type="text" name="name" placeholder="Masukan nama" size="30">   
+					<br>
+					<br>
+					<br>
+					<label>Tanggal Lahir	:</label>
+                        <input type="date" name="tanggal">
+                    <br>
+					<br>
+					<br>
+					<label>Jenis Kelamin	:</label>
+                        <label><input type="radio" name="gender" value="laki-laki">Laki-laki</label>
+                        <label><input type="radio" name="gender" value="perempuan">Perempuan</label>
+                    <br>
+					<br>
+					<br>
+					<label>Pendidikan Terakhir :</label>
+                        <select name="pendidikan terkahir">
+                            <option>Pilih pendidikan terakhir</option>
+                            <option value="SD">SD</option>
+                            <option value="SMP">SMP</option>
+                            <option value="SMA/SMK">SMA/SMK</option>
+                            <option value="D3">D3</option>
+                            <option value="S1">S1</option>
+							<option value="S2">S2</option>
+							<option value="lain-lain">Lain-lain</option>
+						</select>
+					<br>
+					<br>
+					<br>
+                    <label>Alamat Email</label>
+						<input type="email" name="email">
+                    <br>
+					<br>
+					<br>
+					<label>Alamat</label>
+						<textarea name="alamat" cols="30" rows="5"></textarea>
+					<br>
+					<br>
+					<br>
+					<input type="submit" name="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
